@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>test/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>980</ColumnWidth1><ColumnWidth2>261</ColumnWidth2><ColumnWidth3>65</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>198</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Find-in-Files>
+        
+        
+        
+        
+      <ColumnWidth0>403</ColumnWidth0><ColumnWidth1>67</ColumnWidth1><ColumnWidth2>604</ColumnWidth2><ColumnWidth3>268</ColumnWidth3></Find-in-Files>
+    <TerminalIO/></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-29359-5547</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>test</ExpandedNode><ExpandedNode>test/Config</ExpandedNode><ExpandedNode>test/SPL</ExpandedNode><ExpandedNode>test/Source</ExpandedNode><ExpandedNode>test/USB</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-7340-5551</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-29131-15991</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\GPIO\GPIO.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>31</YPos2><SelStart2>2177</SelStart2><SelEnd2>2177</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\Relay\Relay.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>3</YPos2><SelStart2>630</SelStart2><SelEnd2>630</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>9</YPos2><SelStart2>776</SelStart2><SelEnd2>776</SelEnd2></Tab><ActiveTab>2</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\Relay\Relay.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>562</SelStart2><SelEnd2>562</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\SysTick\SysTick.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>15</YPos2><SelStart2>1434</SelStart2><SelEnd2>1434</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\SysTick\SysTick.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>626</SelStart2><SelEnd2>626</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\GPIO\GPIO.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>838</SelStart2><SelEnd2>860</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Config\stm32f10x_conf.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>27</YPos2><SelStart2>1637</SelStart2><SelEnd2>1666</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Config\stm32f10x.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>1046</SelStart2><SelEnd2>1046</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Program Files\IAR Systems\Embedded Workbench 7.0_2\arm\CMSIS\Include\core_cm3.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>31</YPos2><SelStart2>94255</SelStart2><SelEnd2>94263</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00FF9960><key>iaridepm.enu1</key></Toolbar-00FF9960></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>624</Bottom><Right>272</Right><x>-2</x><y>-2</y><xscreen>187</xscreen><yscreen>275</yscreen><sizeHorzCX>146094</sizeHorzCX><sizeHorzCY>291932</sizeHorzCY><sizeVertCX>214063</sizeVertCX><sizeVertCY>664544</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>273</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>275</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>291932</sizeHorzCY><sizeVertCX>146094</sizeVertCX><sizeVertCY>291932</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
