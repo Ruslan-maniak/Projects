@@ -19,6 +19,22 @@
 @REM 
 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 7.0_2\common\bin\cspybat" "C:\Program Files\IAR Systems\Embedded Workbench 7.0_2\arm\bin\armproc.dll" "C:\Program Files\IAR Systems\Embedded Workbench 7.0_2\arm\bin\armsim2.dll"  %1 --plugin "C:\Program Files\IAR Systems\Embedded Workbench 7.0_2\arm\bin\armbat.dll" --device_macro "C:\Program Files\IAR Systems\Embedded Workbench 7.0_2\arm\config\debugger\ST\STM32F1xx.dmac" --backend -B "--endian=little" "--cpu=Cortex-M3" "--fpu=None" "-p" "C:\Program Files\IAR Systems\Embedded Workbench 7.0_2\arm\CONFIG\debugger\ST\STM32F103xC.ddf" "--semihosting" "--device=STM32F103xC" "--multicore_nr_of_cores=1" 
+@echo off 
 
+if not "%~1" == "" goto debugFile 
 
+@echo on 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "D:\работа\Libraries\Projects\SysTick project\settings\test.Debug.general.xcl" --backend -f "D:\работа\Libraries\Projects\SysTick project\settings\test.Debug.driver.xcl" 
+
+@echo off 
+goto end 
+
+:debugFile 
+
+@echo on 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "D:\работа\Libraries\Projects\SysTick project\settings\test.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\работа\Libraries\Projects\SysTick project\settings\test.Debug.driver.xcl" 
+
+@echo off 
+:end
