@@ -30,9 +30,7 @@ int main (void)
     RelayInit(&led2);   
     RelayInit(&led3);
     RelayInit(&led4);
-    
-    SysTickDelay(1000);
-    
+        
     // установка режима работы для светодиодов
     RelaySetTimeOn(5000, &led1);
     RelaySetPeriodOn(200, 500, &led2);
