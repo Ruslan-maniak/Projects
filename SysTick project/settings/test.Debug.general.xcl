@@ -2,7 +2,7 @@
 
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armjlink2.dll" 
 
-"D:\работа\Libraries\Projects\SysTick project\Debug\Exe\test.out" 
+"D:\работа\Libraries\Projects\SysTick project\main.c" 
 
 --plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armbat.dll" 
 

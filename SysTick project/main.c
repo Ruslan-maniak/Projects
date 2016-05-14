@@ -7,7 +7,6 @@
 //==============================================================================
 
     // внешне определенные переменные
-    extern uint32_t globalTimer;
     extern sRelay   led1, 
                     led2,
                     led3,
@@ -23,7 +22,8 @@
 int main (void)
 {   
     // инициализация глобального таймера
-    SysTickInit(1000, 0);
+    if(!SysTickInit(1000, 0))
+        while(1);
     
     // инициализация светодиодов
     RelayInit(&led1);
@@ -31,18 +31,20 @@ int main (void)
     RelayInit(&led3);
     RelayInit(&led4);
     
+    SysTickDelay(1000);
+    
     // установка режима работы для светодиодов
     RelaySetTimeOn(5000, &led1);
     RelaySetPeriodOn(200, 500, &led2);
     RelaySetPeriodOn(400, 2000, &led3);
     RelaySetPeriodOn(50, 100, &led4);
-    
+        
     while(1) 
     {
         // периодическая обработка светодиодов
-        if(globalTimer - ledsPollTimer >= 5)
+        if(SysTickGet() - ledsPollTimer >= 5)
         {
-            ledsPollTimer = globalTimer;
+            ledsPollTimer = SysTickGet();
             RelayPoll(&led1);
             RelayPoll(&led2);
             RelayPoll(&led3);
@@ -50,7 +52,7 @@ int main (void)
         }        
         
         // по истечении 30 секунд выключение светодиода 4
-        if(globalTimer >= 30000)
+        if(SysTickGet() >= 30000)
             RelayOff(&led4);
     }
 }

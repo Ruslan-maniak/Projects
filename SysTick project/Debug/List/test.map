@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V7.50.2.10312/W32 for ARM                14/May/2016  01:48:11
+# IAR ELF Linker V7.50.2.10312/W32 for ARM                14/May/2016  13:56:52
 # Copyright 2007-2015 IAR Systems AB.
 #
 #    Output file  =  
@@ -51,34 +51,24 @@ __SystemLibrary = DLib
   .intvec            ro code  0x08000000   0x130  startup_stm32f10x_hd.o [1]
                             - 0x08000130   0x130
 
-"P1":                                      0x888
+"P1":                                      0x8b0
   .text              ro code  0x08000130   0x15c  stm32f10x_gpio.o [1]
   .text              ro code  0x0800028c   0x158  system_stm32f10x.o [1]
   .text              ro code  0x080003e4   0x102  Relay.o [1]
   .text              ro code  0x080004e8    0xf0  GPIO.o [1]
   .text              ro code  0x080005d8    0x24  stm32f10x_rcc.o [1]
-  .text              ro code  0x080005fc    0xd4  SysTick.o [1]
-  .text              ro code  0x080006d0    0xac  main.o [1]
-  .text              ro code  0x0800077c    0x38  packbits_init_single.o [4]
-  .text              ro code  0x080007b4    0x28  data_init.o [4]
-  .iar.init_table    const    0x080007dc    0x10  - Linker created -
-  .text              ro code  0x080007ec    0x1a  cmain.o [4]
-  .text              ro code  0x08000806     0x4  low_level_init.o [3]
-  .text              ro code  0x0800080a     0x4  exit.o [3]
-  .text              ro code  0x08000810     0xa  cexit.o [4]
-  .text              ro code  0x0800081c    0x14  exit.o [5]
-  .text              ro code  0x08000830    0x10  startup_stm32f10x_hd.o [1]
-  .text              ro code  0x08000840     0xc  cstartup_M.o [4]
-  .text              ro code  0x0800084c     0x4  startup_stm32f10x_hd.o [1]
-  .text              ro code  0x08000850     0x4  startup_stm32f10x_hd.o [1]
-  .text              ro code  0x08000854     0x4  startup_stm32f10x_hd.o [1]
-  .text              ro code  0x08000858     0x4  startup_stm32f10x_hd.o [1]
-  .text              ro code  0x0800085c     0x4  startup_stm32f10x_hd.o [1]
-  .text              ro code  0x08000860     0x4  startup_stm32f10x_hd.o [1]
-  .text              ro code  0x08000864     0x4  startup_stm32f10x_hd.o [1]
-  .text              ro code  0x08000868     0x4  startup_stm32f10x_hd.o [1]
-  .text              ro code  0x0800086c     0x4  startup_stm32f10x_hd.o [1]
-  .text              ro code  0x08000870     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080005fc    0xf0  SysTick.o [1]
+  .text              ro code  0x080006ec    0xb8  main.o [1]
+  .text              ro code  0x080007a4    0x38  packbits_init_single.o [4]
+  .text              ro code  0x080007dc    0x28  data_init.o [4]
+  .iar.init_table    const    0x08000804    0x10  - Linker created -
+  .text              ro code  0x08000814    0x1a  cmain.o [4]
+  .text              ro code  0x0800082e     0x4  low_level_init.o [3]
+  .text              ro code  0x08000832     0x4  exit.o [3]
+  .text              ro code  0x08000838     0xa  cexit.o [4]
+  .text              ro code  0x08000844    0x14  exit.o [5]
+  .text              ro code  0x08000858    0x10  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08000868     0xc  cstartup_M.o [4]
   .text              ro code  0x08000874     0x4  startup_stm32f10x_hd.o [1]
   .text              ro code  0x08000878     0x4  startup_stm32f10x_hd.o [1]
   .text              ro code  0x0800087c     0x4  startup_stm32f10x_hd.o [1]
@@ -137,9 +127,19 @@ __SystemLibrary = DLib
   .text              ro code  0x08000950     0x4  startup_stm32f10x_hd.o [1]
   .text              ro code  0x08000954     0x4  startup_stm32f10x_hd.o [1]
   .text              ro code  0x08000958     0x4  startup_stm32f10x_hd.o [1]
-  .rodata            const    0x0800095c     0x0  packbits_init_single.o [4]
-  Initializer bytes  const    0x0800095c    0x5c  <for P2-1>
-                            - 0x080009b8   0x888
+  .text              ro code  0x0800095c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08000960     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08000964     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08000968     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800096c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08000970     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08000974     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08000978     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800097c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08000980     0x4  startup_stm32f10x_hd.o [1]
+  .rodata            const    0x08000984     0x0  packbits_init_single.o [4]
+  Initializer bytes  const    0x08000984    0x5c  <for P2-1>
+                            - 0x080009e0   0x8b0
 
 "P2", part 1 of 2:                          0x9c
   P2-1                        0x20000000    0x9c  <Init block>
@@ -170,7 +170,7 @@ __SystemLibrary = DLib
           -------     ----
 Copy/packbits (__iar_packbits_init_single3)
     1 source range, total size 0x5c (58% of destination):
-          0x0800095c  0x5c
+          0x08000984  0x5c
     1 destination range, total size 0x9c:
           0x20000000  0x9c
 
@@ -185,14 +185,14 @@ Copy/packbits (__iar_packbits_init_single3)
 D:\работа\Libraries\Projects\SysTick project\Debug\Obj: [1]
     GPIO.o                      240       37       64
     Relay.o                     258       47       80
-    SysTick.o                   212        3        4
-    main.o                      172        2        4
+    SysTick.o                   240        3        4
+    main.o                      184        2        4
     startup_stm32f10x_hd.o      592
     stm32f10x_gpio.o            348
     stm32f10x_rcc.o              36
     system_stm32f10x.o          344        3        4
     -------------------------------------------------
-    Total:                    2 202       92      156
+    Total:                    2 242       92      156
 
 command line: [2]
     -------------------------------------------------
@@ -221,7 +221,7 @@ shb_l.a: [5]
     Gaps                          6
     Linker created                        16    4 096
 -----------------------------------------------------
-    Grand Total:              2 380      108    4 252
+    Grand Total:              2 420      108    4 252
 
 
 *******************************************************************************
@@ -230,9 +230,9 @@ shb_l.a: [5]
 
 Entry                      Address  Size  Type      Object
 -----                      -------  ----  ----      ------
-.iar.init_table$$Base   0x080007dc         --   Gb  - Linker created -
-.iar.init_table$$Limit  0x080007ec         --   Gb  - Linker created -
-?main                   0x080007ed        Code  Gb  cmain.o [4]
+.iar.init_table$$Base   0x08000804         --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08000814         --   Gb  - Linker created -
+?main                   0x08000815        Code  Gb  cmain.o [4]
 CSTACK$$Base            0x200000a0         --   Gb  - Linker created -
 CSTACK$$Limit           0x200010a0         --   Gb  - Linker created -
 GPIOInit                0x080004e9  0xc0  Code  Gb  GPIO.o [1]
@@ -240,11 +240,11 @@ GPIOWrite               0x080005b9  0x20  Code  Gb  GPIO.o [1]
 GPIO_Init               0x08000131  0xc0  Code  Gb  stm32f10x_gpio.o [1]
 GPIO_PinRemapConfig     0x08000203  0x80  Code  Gb  stm32f10x_gpio.o [1]
 GPIO_WriteBit           0x080001f1  0x12  Code  Gb  stm32f10x_gpio.o [1]
-InitDWTCounter          0x0800067b  0x20  Code  Lc  SysTick.o [1]
+InitDWTCounter          0x08000685  0x20  Code  Lc  SysTick.o [1]
 NVIC_SetPriority        0x080005fd  0x22  Code  Lc  SysTick.o [1]
 RCC_APB2PeriphClockCmd  0x080005d9  0x20  Code  Gb  stm32f10x_rcc.o [1]
-Region$$Table$$Base     0x080007dc         --   Gb  - Linker created -
-Region$$Table$$Limit    0x080007ec         --   Gb  - Linker created -
+Region$$Table$$Base     0x08000804         --   Gb  - Linker created -
+Region$$Table$$Limit    0x08000814         --   Gb  - Linker created -
 RelayInit               0x080003e5  0x20  Code  Gb  Relay.o [1]
 RelayOff                0x080004b9  0x20  Code  Gb  Relay.o [1]
 RelayPoll               0x08000405  0x7a  Code  Gb  Relay.o [1]
@@ -253,23 +253,25 @@ RelaySetPeriodOn        0x0800047f  0x20  Code  Gb  Relay.o [1]
 RelaySetTimeOn          0x0800049f  0x16  Code  Gb  Relay.o [1]
 SetSysClock             0x080002e1   0x8  Code  Lc  system_stm32f10x.o [1]
 SetSysClockTo72         0x080002e9  0xe0  Code  Lc  system_stm32f10x.o [1]
-SysTickInit             0x0800064d  0x2e  Code  Gb  SysTick.o [1]
+SysTickDelay            0x080006b1  0x12  Code  Gb  SysTick.o [1]
+SysTickGet              0x0800067f   0x6  Code  Gb  SysTick.o [1]
+SysTickInit             0x0800064d  0x32  Code  Gb  SysTick.o [1]
 SysTick_Config          0x0800061f  0x2e  Code  Lc  SysTick.o [1]
-SysTick_Handler         0x0800069b   0xc  Code  Gb  SysTick.o [1]
+SysTick_Handler         0x080006a5   0xc  Code  Gb  SysTick.o [1]
 SystemCoreClock         0x20000090   0x4  Data  Gb  system_stm32f10x.o [1]
 SystemInit              0x0800028d  0x54  Code  Gb  system_stm32f10x.o [1]
-__cmain                 0x080007ed        Code  Gb  cmain.o [4]
-__exit                  0x0800081d  0x14  Code  Gb  exit.o [5]
-__iar_data_init3        0x080007b5  0x28  Code  Gb  data_init.o [4]
+__cmain                 0x08000815        Code  Gb  cmain.o [4]
+__exit                  0x08000845  0x14  Code  Gb  exit.o [5]
+__iar_data_init3        0x080007dd  0x28  Code  Gb  data_init.o [4]
 __iar_packbits_init_single3
-                        0x0800077d  0x38  Code  Gb  packbits_init_single.o [4]
-__iar_program_start     0x08000841        Code  Gb  cstartup_M.o [4]
-__low_level_init        0x08000807   0x4  Code  Gb  low_level_init.o [3]
+                        0x080007a5  0x38  Code  Gb  packbits_init_single.o [4]
+__iar_program_start     0x08000869        Code  Gb  cstartup_M.o [4]
+__low_level_init        0x0800082f   0x4  Code  Gb  low_level_init.o [3]
 __vector_table          0x08000000        Data  Gb  startup_stm32f10x_hd.o [1]
-_call_main              0x080007f9        Code  Gb  cmain.o [4]
-_exit                   0x08000811        Code  Gb  cexit.o [4]
-_main                   0x08000803        Code  Gb  cmain.o [4]
-exit                    0x0800080b   0x4  Code  Gb  exit.o [3]
+_call_main              0x08000821        Code  Gb  cmain.o [4]
+_exit                   0x08000839        Code  Gb  cexit.o [4]
+_main                   0x0800082b        Code  Gb  cmain.o [4]
+exit                    0x08000833   0x4  Code  Gb  exit.o [3]
 globalTimer             0x20000098   0x4  Data  Gb  SysTick.o [1]
 gpioLed1                0x20000000  0x10  Data  Gb  GPIO.o [1]
 gpioLed2                0x20000010  0x10  Data  Gb  GPIO.o [1]
@@ -280,7 +282,7 @@ led2                    0x20000054  0x14  Data  Gb  Relay.o [1]
 led3                    0x20000068  0x14  Data  Gb  Relay.o [1]
 led4                    0x2000007c  0x14  Data  Gb  Relay.o [1]
 ledsPollTimer           0x20000094   0x4  Data  Gb  main.o [1]
-main                    0x080006d1  0xac  Code  Gb  main.o [1]
+main                    0x080006ed  0xb8  Code  Gb  main.o [1]
 
 
 [1] = D:\работа\Libraries\Projects\SysTick project\Debug\Obj
@@ -289,7 +291,7 @@ main                    0x080006d1  0xac  Code  Gb  main.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-  2 380 bytes of readonly  code memory
+  2 420 bytes of readonly  code memory
     108 bytes of readonly  data memory
   4 252 bytes of readwrite data memory
 
